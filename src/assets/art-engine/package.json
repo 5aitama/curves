@@ -1,0 +1,19 @@
+{
+  "name": "art-engine",
+  "collaborators": [
+    "5aitama <alexis@jusdeliens.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "art_engine_bg.wasm",
+    "art_engine.js",
+    "art_engine_bg.js",
+    "art_engine.d.ts"
+  ],
+  "module": "art_engine.js",
+  "types": "art_engine.d.ts",
+  "sideEffects": [
+    "./art_engine.js",
+    "./snippets/*"
+  ]
+}
